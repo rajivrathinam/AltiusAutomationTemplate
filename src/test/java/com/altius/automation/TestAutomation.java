@@ -11,7 +11,7 @@ WebDriver driver;
 	
 	@BeforeTest
 	public void beforeExecution(){
-		System.setProperty("webdriver.chrome.driver", "../automationTemplate/src/main/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../AltiusAutomationTemplate/src/test/resources/chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
